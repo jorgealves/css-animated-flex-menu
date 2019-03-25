@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.left-side {
+    order: 1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-button svg {
+    max-height: 15vh;
+    max-width: 100px;
+    transition: 0.6s;
+}
+
+.link-button svg rect:hover {
+    stroke: yellow;
+    stroke-dasharray: 50px 110px;
+    stroke-dashoffset: 310;
+    stroke-width: 2px;
+}
+
+.link-button:hover {}
+
+.brand-icon {
+    order: 2;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.right-side {
+    order: 3;
+}
