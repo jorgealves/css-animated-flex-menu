@@ -39,9 +39,11 @@ body {
 
 .link-button svg rect:hover {
     stroke: yellow;
-    stroke-dasharray: 50px 110px;
-    stroke-dashoffset: 310;
+    stroke-dasharray: 47 155;
+    stroke-dashoffset: 400;
     stroke-width: 2px;
+    animation: 1s linear;
+    transition: 0.6s;
 }
 
 .link-button:hover {}
